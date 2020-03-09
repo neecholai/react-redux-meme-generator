@@ -1,0 +1,14 @@
+.MemeForm {
+  display: flex;
+  justify-content: center;
+}
+
+.MemeForm-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MemeForm-field {
+  margin: 10px;
+}

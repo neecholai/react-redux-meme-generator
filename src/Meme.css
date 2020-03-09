@@ -1,0 +1,47 @@
+.Meme {
+  position: relative;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Meme-img {
+  width: 500px;
+  height: 500px;
+}
+
+.Meme :hover {
+  opacity: 0.3;
+  background: grey;
+  cursor: pointer;
+}
+
+.Meme-top-text {
+  position: absolute;
+  top: 10%;
+  font-size: 40px;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-family: impact;
+  text-transform: uppercase;
+}
+
+.Meme-bottom-text {
+  position: absolute;
+  bottom: 10%;
+  font-size: 40px;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-family: impact;
+  text-transform: uppercase;
+}
+
+.Meme-remove-text {
+  position: absolute;
+  font-size: 300px;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-family: impact;
+  top: 16%;
+}
